@@ -13,19 +13,15 @@ Once installed, Claude Code can start a session with your myai agents, send mess
 
 On first use Claude Code opens a browser window to sign in to myai. Your existing myai login works; there are no API keys to manage.
 
-## Pointing at your company's myai site
+## Companies with their own myai site
 
-The plugin connects to the myai beta (`api-beta.makeyourself.ai`) by default. If your company runs its own myai site, set `MYAI_API_HOST` before starting Claude Code:
+The plugin connects to the myai beta (`api-beta.makeyourself.ai`). If your company runs its own myai site, skip the plugin and add your site's MCP server directly:
 
 ```bash
-export MYAI_API_HOST=api-acme.makeyourself.ai
+claude mcp add --transport http myai https://api-acme.makeyourself.ai/api/mcp
 ```
 
-Or set it once for a project in `.claude/settings.json`:
-
-```json
-{ "env": { "MYAI_API_HOST": "api-acme.makeyourself.ai" } }
-```
+In Claude Desktop or Cowork, add it as a custom connector with the same URL. Sign-in is the same OAuth flow.
 
 ## Access
 

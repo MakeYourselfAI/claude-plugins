@@ -10,8 +10,8 @@
     {
       "name": "myai",
       "source": "./plugins/myai",
-      "description": "Make Yourself AI MCP server. Start sessions with your myai agents, send messages to dimensions, invoke tools, and build and publish apps from Claude Code. Connects to the myai beta by default; set MYAI_API_HOST for your company's own site.",
-      "version": "0.1.0",
+      "description": "Make Yourself AI MCP server. Start sessions with your myai agents, send messages to dimensions, invoke tools, and build and publish apps from Claude Code. Connects to the myai beta; companies with their own myai site connect directly to their host.",
+      "version": "0.1.1",
       "author": {
         "name": "Make Yourself AI",
         "url": "https://makeyourself.ai"
