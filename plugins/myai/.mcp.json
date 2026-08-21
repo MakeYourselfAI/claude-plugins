@@ -1,0 +1,6 @@
+{
+  "myai": {
+    "type": "http",
+    "url": "https://${MYAI_API_HOST:-api-beta.makeyourself.ai}/api/mcp"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "myai",
+  "version": "0.1.0",
+  "description": "Make Yourself AI MCP server. Start sessions with your myai agents, send messages to dimensions, invoke tools, and build and publish apps from Claude Code.",
+  "author": {
+    "name": "Make Yourself AI",
+    "url": "https://makeyourself.ai"
+  },
+  "homepage": "https://github.com/MakeYourselfAI/claude-plugins/tree/main/plugins/myai",
+  "repository": "https://github.com/MakeYourselfAI/claude-plugins",
+  "license": "MIT",
+  "keywords": ["myai", "mcp", "agents"]
+}
